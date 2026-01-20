@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function() {
+    if (!localStorage.getItem("loggedUser")) {
+        window.location.href = 'index.html';
+    }
+});
+
 let catalogList = [
     {
         src: "media/images/SpyxFamily%20card.svg",
