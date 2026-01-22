@@ -71,3 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
         catalog.appendChild(newDiv)
     })
 });
+
+document.getElementById("profile-dropdown").addEventListener("click", () => {
+
+})

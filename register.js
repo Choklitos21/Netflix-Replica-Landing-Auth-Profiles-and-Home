@@ -51,10 +51,11 @@ function registerUser (data) {
                 src: "media/images/media/images/1026-to-your-eternity-gugu.png",
                 name: "Choklitos"
             }
-        ]
+        ],
+        bookmark: [{}]
     })
 
     localStorage.setItem("users", JSON.stringify(users))
-    localStorage.setItem("userLogged", data.userEmail)
+    localStorage.setItem("loggedUser", data.userEmail)
     window.location.href = 'profiles.html';
 }
